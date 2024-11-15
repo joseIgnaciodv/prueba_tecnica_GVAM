@@ -2,3 +2,69 @@ audio {
   margin-top: 15px;
   margin-left: 10px;
 }
+
+.action-button-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.font-size-buttons {
+  display: flex;
+  margin-right: 15px;
+}
+
+.button-type {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background-color: #ffcd03;
+  border: none;
+
+  font-size: 18px;
+  font-family: sans-serif;
+
+  & svg {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+#location-button {
+  margin-left: 15px;
+}
+
+#increase-font-size {
+  margin-right: 7px;
+}
+
+#increase-font-size:active {
+  opacity: 0.6;
+}
+
+#decrease-font-size:active {
+  opacity: 0.6;
+}
+
+#location-button:active {
+  opacity: 0.6;
+}
+
+.scrollable-text {
+  display: flex;
+  width: 90%;
+  height: 300px;
+  margin: 10px auto;
+  overflow-y: auto;
+
+  & p {
+    line-height: 1.5em;
+    margin: 0;
+    font-family: sans-serif;
+  }
+}

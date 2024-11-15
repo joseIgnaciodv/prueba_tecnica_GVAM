@@ -1,0 +1,17 @@
+.text-title {
+  display: flex;
+  width: 90%;
+  height: fit-content;
+  align-items: center;
+  margin: 15px auto 0 auto;
+  word-wrap: break-word;
+
+  & p {
+    font-size: 26px;
+    line-height: 1.45em;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+    font-family: sans-serif;
+  }
+}
