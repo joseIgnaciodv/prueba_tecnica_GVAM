@@ -1,9 +1,11 @@
 <app-page-header></app-page-header>
 
+<app-modal [open]="open" (toggleModal)="handleToggle($event)"></app-modal>
+
 <audio controls src="assets/audio/sound.mp3"></audio>
 
 <div class="action-button-container">
-  <button id="location-button" class="button-type">
+  <button (click)="openModal()" id="location-button" class="button-type">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
