@@ -4,9 +4,13 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class ChangeFontSizeService {
-  fontSize: number = 14;
+  fontSize: number = 14; // Tamaño de fuente por defecto
 
   constructor() {}
+
+  getFontSize() {
+    return this.fontSize;
+  }
 
   increaseFontSize() {
     this.fontSize += 2; // Aumentar tamaño de la fuente en multiplos de 2
