@@ -2,7 +2,7 @@
 
 Proyecto desarrollado en `Angular` e `Ionic` que implementa las siguientes funcionalidades:
 
-**Carrusel de imágenes**: Carrusel horizontal, que permite visualizar las images presentes deslizando cada una, utilizando Swiper.js.
+**Carrusel de imágenes**: Carrusel horizontal, que permite visualizar las imageness presentes deslizando cada una, utilizando Swiper.js.
 **Vista en pantalla completa**: Una pantalla dedicada donde el carrusel se muestra en modo horizontal y ocupa toda la pantalla.
 **Texto ajustable**: Bloque de texto desplazable con botones para aumentar o reducir el tamaño de la fuente.
 **Botón localizar**: Modal personalizable con información basica del museo (e.g Ubicación, Horarios, Información de contacto).
