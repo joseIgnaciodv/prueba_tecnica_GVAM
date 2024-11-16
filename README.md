@@ -10,10 +10,10 @@ Proyecto desarrollado en `Angular` e `Ionic` que implementa las siguientes funci
 ## Instrucciones
 
 1. Clonar el repositorio:
-   &nbsp `git clone https://github.com/joseIgnaciodv/prueba_tecnica_GVAM.git`.
+   `git clone https://github.com/joseIgnaciodv/prueba_tecnica_GVAM.git`.
 
 2. Instalar las dependencias:
-   &nbsp `npm i` o con el comando completo `npm install` en la línea de comandos.
+   `npm i` o con el comando completo `npm install` en la línea de comandos.
 
 3. Ejecutar:
-   &nbsp Para ejecutar la aplicación `ng serve`. Cuando finalice el comando abre `http://localhost:4200/` en un navegador para ver la aplicación.
+   Para ejecutar la aplicación `ng serve`. Cuando finalice el comando abre `http://localhost:4200/` en un navegador para ver la aplicación.
