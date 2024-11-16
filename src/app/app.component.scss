@@ -3,12 +3,45 @@ audio {
   margin: 15px auto 0 auto;
 }
 
+#fullscreen-button {
+  position: absolute;
+  right: 0;
+  --background: black;
+  z-index: 2;
+  margin-right: 20px;
+  margin-top: 20px;
+
+  & svg {
+    width: 25px;
+    height: 25px;
+    fill: #ffcd03;
+  }
+}
+
 .action-button-container {
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: space-between;
   margin-top: 15px;
+
+  & ion-button {
+    width: 45px;
+    height: 45px;
+    --background: #ffcd03;
+    border-radius: 12px;
+    margin-left: 15px;
+
+    & ion-icon {
+      width: 25px;
+      height: 25px;
+      fill: black;
+    }
+  }
+
+  & ion-button:active {
+    opacity: 0.6;
+  }
 }
 
 .font-size-buttons {
@@ -28,11 +61,6 @@ audio {
 
   font-size: 18px;
   font-family: sans-serif;
-
-  & svg {
-    width: 25px;
-    height: 25px;
-  }
 }
 
 #location-button {
