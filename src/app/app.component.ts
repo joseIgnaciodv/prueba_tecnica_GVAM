@@ -9,6 +9,7 @@ import { ChangeFontSizeService } from './services/change-font-size.service';
 export class AppComponent {
   title = 'prueba_tecnica_GVAM';
   open: boolean = false; // Variable encargada de determinar si esta abierto o cerrado el modal
+  openFull: boolean = false; // Variable encargada de determinar si esta abierto o cerrado el modo de pantalla completa
 
   constructor(private changeSize: ChangeFontSizeService) {}
 
@@ -17,9 +18,19 @@ export class AppComponent {
     this.open = true;
   }
 
+  // Función encargada de abrir el modo de pantall completa, poniendo el valor de 'openFull' a verdadero
+  openFullscreenMode() {
+    this.openFull = true;
+  }
+
   // Función encargada de tratar el cambio de valor de la variable 'open', desde el componente hijo (modal - component)
   handleToggle(value: boolean) {
     this.open = value;
+  }
+
+  // Función encargada de tratar el cambio de valor de la variable 'openFull', desde el componente hijo (fullscreen - component)
+  handleModeChange(value: boolean) {
+    this.openFull = value;
   }
 
   // Función encargada de incrementar el tamaño de la fuente, llamando a la función (increaseFontSize) del servicio
