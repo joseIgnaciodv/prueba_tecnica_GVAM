@@ -17,3 +17,5 @@ Proyecto desarrollado en `Angular` e `Ionic` que implementa las siguientes funci
 
 3. Ejecutar:
    Para ejecutar la aplicación `ng serve`. Cuando finalice el comando abre `http://localhost:4200/` en un navegador para ver la aplicación.
+
+4. Visulaizar: ver la aplicación en modo móvil, haciendo click derecho en la pantalla seleccionando `Inspeccionar`, Y luego hacer click en el icono del dispositivo (portátil con el móvil) 
